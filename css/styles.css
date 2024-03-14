@@ -208,3 +208,28 @@ section {
     padding: 7px 10px;
     border-radius: 0 0.5rem 0 0.5rem;
 }
+
+.service-container {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+ grid: 1.5rem;
+ margin-top: 4rem;
+}
+
+.s-box {
+text-align: center;
+padding: 1.25rem;
+}
+
+.s-box h3 {
+    color: var(--main-color);
+    margin: 4px 0 10px;
+    font-size: 1.2rem;
+}
+.s-box img {
+    width: 5.62rem;
+}
+
+.s-box p {
+    line-height: 1.7;
+}
